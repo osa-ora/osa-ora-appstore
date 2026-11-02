@@ -1,0 +1,54 @@
+{
+  "password": null,
+  "theme": "dark",
+  "apps": [
+    {
+      "id": "private-space",
+      "title": "My Private Space",
+      "icon": "/static/images/private-space.svg",
+      "path": "../my-private-space",
+      "url": "http://127.0.0.1:8766",
+      "hidden": false,
+      "order": 0,
+      "start_command": "bash \"run.sh\" start",
+      "stop_command": "bash \"run.sh\" stop",
+      "status_command": "bash \"run.sh\" status"
+    },
+    {
+      "id": "iptv",
+      "title": "IPTV",
+      "icon": "/static/images/iptv.svg",
+      "path": "../iptv",
+      "url": "http://127.0.0.1:8767",
+      "hidden": false,
+      "order": 1,
+      "start_command": "bash \"run.sh\" start",
+      "stop_command": "bash \"run.sh\" stop",
+      "status_command": "bash \"run.sh\" status"
+    },
+    {
+      "id": "demo-management",
+      "title": "Demo Management",
+      "icon": "/static/images/demo-management.svg",
+      "path": "../demo-management",
+      "url": "http://127.0.0.1:8768",
+      "hidden": false,
+      "order": 2,
+      "start_command": "bash \"run.sh\" start",
+      "stop_command": "bash \"run.sh\" stop",
+      "status_command": "bash \"run.sh\" status"
+    },
+    {
+      "id": "book-ads-animator",
+      "title": "Book Ads Animator",
+      "icon": "/static/images/book-ads-animator.svg",
+      "path": "../book-ads-animator",
+      "url": "http://127.0.0.1:8769",
+      "hidden": false,
+      "order": 3,
+      "start_command": "bash \"run.sh\" start",
+      "stop_command": "bash \"run.sh\" stop",
+      "status_command": "bash \"run.sh\" status"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Osa Ora App Store</title><link rel="stylesheet" href="/static/css/app.css?v=14">
+</head>
+<body>
+<div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+<div class="shell">
+  <header class="topbar">
+    <div class="brand"><div class="brand-mark">OO</div><div><strong>Osa Ora App Store</strong><span>YOUR APPLICATION HUB</span></div></div>
+    <div class="top-actions">
+      <button id="lockBtn" class="icon-btn" title="Unlock hidden applications" aria-label="Unlock hidden applications">◈</button>
+      <button id="settingsBtn" class="icon-btn" title="Settings" aria-label="Settings">⚙</button>
+      <button id="aboutBtn" class="icon-btn" title="About" aria-label="About">ⓘ</button>
+      <button id="exitBtn" class="icon-btn exit-btn" title="Close launcher and stop its process" aria-label="Close launcher">×</button>
+    </div>
+  </header>
+  <main>
+    <section class="section-head"><div><p class="eyebrow">THE COLLECTION</p><h2>Applications</h2><p>Choose an app to open it in a new tab. Drag cards to arrange your space.</p></div></section>
+    <section id="appsGrid" class="apps-grid"></section>
+  </main>
+  <footer><span>OSA ORA APP STORE</span><span>LOCAL · PRIVATE · YOURS</span></footer>
+</div>
+<div id="modalBackdrop" class="backdrop" hidden><div class="modal" role="dialog" aria-modal="true"><div class="modal-head"><h2 id="modalTitle">Settings</h2><button id="closeModal" class="icon-btn">✕</button></div><div id="modalBody"></div></div></div>
+<div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div><script src="/static/js/app.js?v=14"></script>
+</body></html>

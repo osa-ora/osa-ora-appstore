@@ -1,0 +1,137 @@
+:root{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#eef3ff;background:#090d17;font-synthesis:none;--muted:#8996ad;--line:#ffffff16;--panel:#151d2d;--accent:#91b5ff}*{box-sizing:border-box}body{margin:0;min-height:100vh;overflow-x:hidden;background:radial-gradient(ellipse at 50% -20%,#283b61 0,transparent 48%),linear-gradient(145deg,#090d17,#0d1422 55%,#0a1020)}.ambient{position:fixed;pointer-events:none;filter:blur(90px);opacity:.22;border-radius:50%;z-index:0}.ambient-one{width:360px;height:360px;background:#526fe7;top:230px;left:-180px}.ambient-two{width:420px;height:420px;background:#258eae;right:-250px;top:550px}.shell{position:relative;z-index:1;max-width:1500px;margin:auto;padding:0 64px}.topbar{height:94px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:14px}.brand-mark{width:48px;height:48px;border-radius:15px;background:linear-gradient(140deg,#9bc4ff,#7561db);display:grid;place-items:center;font-weight:900;color:white;letter-spacing:-2px;font-size:17px;box-shadow:0 8px 30px #667de955}.brand strong,.brand span{display:block}.brand strong{font-size:17px;letter-spacing:.2px}.brand span{font-size:9px;color:#8c9bb4;letter-spacing:2.4px;margin-top:5px}.top-actions{display:flex;gap:10px}.icon-btn{width:43px;height:43px;border:1px solid #ffffff20;border-radius:14px;background:#ffffff09;color:#c6d2e6;font-size:19px;cursor:pointer;transition:.2s}.icon-btn:hover{background:#ffffff1a;color:white;transform:translateY(-2px);border-color:#9dbbff66}.exit-btn{color:#f09ca6}.welcome{min-height:340px;display:flex;justify-content:space-between;align-items:center;padding:62px 0 55px}.eyebrow{font-size:10px;letter-spacing:3px;color:#91a9d0;font-weight:800;margin:0 0 15px}.eyebrow span{display:inline-block;width:7px;height:7px;border-radius:50%;background:#76e0b1;margin-right:8px;box-shadow:0 0 12px #76e0b1}.welcome h1{font-size:clamp(54px,7vw,88px);letter-spacing:-5px;line-height:.94;margin:0 0 22px;font-weight:750}.welcome h1 em{font-style:normal;background:linear-gradient(90deg,#a8c8ff,#9c8bff 75%,#7cd9e8);background-clip:text;color:transparent}.sub{color:#98a5ba;font-size:16px;margin:0}.welcome-side{width:360px;height:245px;position:relative;display:grid;place-items:center}.hero-monogram{width:142px;height:142px;border-radius:42px;display:grid;place-items:center;font-size:42px;font-weight:900;letter-spacing:-5px;color:#eaf2ff;background:linear-gradient(145deg,#354d7a,#272a59 60%,#234b68);border:1px solid #ffffff32;box-shadow:0 25px 80px #5269c644,inset 0 1px 1px #ffffff44;transform:rotate(-9deg)}.orbit{position:absolute;border:1px solid #a9c3ff24;border-radius:50%;transform:rotate(-20deg)}.orbit-a{width:300px;height:145px}.orbit-b{width:350px;height:190px;transform:rotate(35deg)}.clock-card{position:absolute;right:-5px;bottom:2px;border:1px solid #ffffff25;background:#101a2bdc;backdrop-filter:blur(16px);border-radius:17px;padding:14px 19px;min-width:118px;box-shadow:0 15px 45px #0005}.clock-card span,.clock-card small{display:block;color:#8b9ab2;font-size:8px;letter-spacing:1.7px}.clock-card b{display:block;font-size:31px;margin:3px 0;letter-spacing:-1px}.section-head{display:flex;align-items:end;justify-content:space-between;margin:10px 0 25px}.section-head h2{font-size:27px;letter-spacing:-.7px;margin:0 0 8px}.section-head p:not(.eyebrow){margin:0;color:#8290a7;font-size:13px}.section-head .eyebrow{margin-bottom:8px}.add-btn{background:linear-gradient(120deg,#a9c9ff,#8f9dff);color:#111a2c;border:0;border-radius:13px;padding:14px 19px;font-weight:800;font-size:13px;cursor:pointer;box-shadow:0 8px 25px #799bff33;transition:.2s}.add-btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px #799bff55}.apps-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:22px}.app-card{position:relative;min-height:310px;border:1px solid #ffffff18;border-radius:25px;background:linear-gradient(145deg,#1b2639ed,#121a29f2);padding:27px 27px 23px;cursor:grab;transition:transform .22s,border-color .22s,box-shadow .22s;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 15px 40px #0002}.app-card:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 85% 12%,#8aaeff17,transparent 42%);pointer-events:none}.app-card:hover{transform:translateY(-7px);border-color:#a2beff66;box-shadow:0 24px 55px #0005,0 0 0 1px #9dbbff10}.app-card.dragging{opacity:.35}.app-top{display:flex;justify-content:space-between;align-items:flex-start;position:relative}.app-icon-wrap{width:112px;height:112px;border-radius:29px;display:grid;place-items:center;background:linear-gradient(145deg,#ffffff17,#ffffff05);border:1px solid #ffffff19;box-shadow:inset 0 1px #ffffff17,0 12px 28px #0002}.app-icon{width:88px;height:88px;object-fit:contain;border-radius:22px;filter:drop-shadow(0 8px 12px #0004)}.status{display:flex;align-items:center;gap:7px;color:#9ba9bd;font-size:10px;text-transform:capitalize;background:#080e1b88;border:1px solid #ffffff12;border-radius:20px;padding:7px 10px}.dot{width:7px;height:7px;border-radius:50%;background:#8791a0}.status.running .dot{background:#50d69a;box-shadow:0 0 10px #50d69a88}.status.stopped .dot{background:#f16c72;box-shadow:0 0 10px #f16c7280}.status.unavailable .dot{background:#8993a3}.app-title{font-weight:750;font-size:20px;letter-spacing:-.35px;margin-top:auto;padding-top:25px;position:relative}.app-url{font-size:11px;color:#7f8da5;margin-top:7px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.app-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;opacity:.88;transition:.15s;position:relative}.app-card:hover .app-actions,.app-card:focus-within .app-actions{opacity:1}.mini-btn{border:1px solid #ffffff20;background:#ffffff0b;color:#c6d2e5;border-radius:9px;padding:8px 11px;font-size:11px;cursor:pointer}.mini-btn:hover{background:#ffffff1c;border-color:#a9c3ff55}.app-actions .mini-btn:first-child{background:#a4c3ff;color:#101a2c;border-color:transparent;font-weight:800}.hidden-section{margin-top:58px}.hidden-section .section-head{margin-bottom:20px}.subtle-btn{border:1px solid #ffffff22;background:transparent;color:#c1cde0;border-radius:10px;padding:10px 13px;cursor:pointer}.empty{padding:50px;text-align:center;color:#8593aa;border:1px dashed #ffffff27;border-radius:20px;font-size:14px;grid-column:1/-1}footer{display:flex;justify-content:space-between;color:#64728a;font-size:9px;letter-spacing:1.8px;padding:65px 0 28px}.backdrop{position:fixed;inset:0;background:#050811d9;backdrop-filter:blur(12px);display:grid;place-items:center;padding:20px;z-index:5}.backdrop[hidden]{display:none}.modal{width:min(680px,100%);max-height:90vh;overflow:auto;background:#172235;border:1px solid #ffffff25;border-radius:22px;padding:27px;box-shadow:0 30px 100px #000b}.modal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}.modal-head h2{font-size:21px;margin:0}.field{display:flex;flex-direction:column;gap:8px;margin:14px 0}.field label{font-size:11px;color:#b2bfd2}.field input,.field select{width:100%;border:1px solid #ffffff22;background:#0d1625;color:#eaf0f9;border-radius:10px;padding:12px 13px;outline:none}.field input:focus,.field select:focus{border-color:#9dbbff}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}.checkline{display:flex;gap:9px;align-items:center;color:#c2cde0;font-size:12px;margin:15px 0}.modal-actions{display:flex;justify-content:flex-end;gap:9px;margin-top:23px}.primary-btn,.danger-btn{border:0;border-radius:10px;padding:11px 16px;background:#a4c3ff;color:#0d1728;font-weight:800;cursor:pointer}.danger-btn{background:#6e3039;color:#ffe1e4}.secondary-btn{border:1px solid #ffffff25;border-radius:10px;padding:11px 16px;background:transparent;color:#cbd6e7;cursor:pointer}.app-row{display:flex;align-items:center;gap:13px;padding:12px 0;border-bottom:1px solid #ffffff12}.app-row img{width:43px;height:43px;object-fit:contain}.app-row .row-main{flex:1;min-width:0}.app-row strong,.app-row small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.app-row small{font-size:10px;color:#8290a5;margin-top:4px}.toast{position:fixed;bottom:25px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#e7edf8;color:#111a28;padding:12px 18px;border-radius:12px;font-size:12px;transition:.2s;z-index:10;box-shadow:0 12px 35px #0005}.toast.show{opacity:1;transform:translate(-50%,0)}.theme-light{background:radial-gradient(ellipse at 50% -20%,#d9e5ff 0,transparent 48%),#eef2f8;color:#172033}.theme-light .app-card,.theme-light .clock-card{background:#fff;border-color:#d8dfeb;color:#182238}.theme-light .modal{background:#fff;color:#172033}.theme-light .field input,.theme-light .field select{background:#f4f6fa;color:#172033;border-color:#d4dbe7}.theme-light .topbar{border-color:#d7deea}.theme-light .icon-btn{color:#46546b;border-color:#d5dce8}.theme-light .app-url,.theme-light .section-head p:not(.eyebrow){color:#69788f}.theme-midnight{background:radial-gradient(ellipse at 50% -20%,#292a68 0,transparent 48%),#080c1d}.theme-midnight .app-card{background:linear-gradient(145deg,#1b2042,#10152b)}@media(max-width:800px){.shell{padding:0 25px}.welcome{min-height:300px}.welcome-side{width:260px;transform:scale(.8);transform-origin:right center}.welcome h1{font-size:60px}.apps-grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}}@media(max-width:560px){.shell{padding:0 17px}.topbar{height:75px}.brand-mark{width:41px;height:41px}.welcome{padding:45px 0 35px;min-height:auto}.welcome-side{display:none}.welcome h1{font-size:55px;letter-spacing:-3px}.section-head{align-items:flex-start;gap:12px}.section-head h2{font-size:23px}.section-head p:not(.eyebrow){max-width:260px;line-height:1.5}.add-btn{padding:11px 13px}.add-btn span{display:none}.apps-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.app-card{padding:15px;min-height:245px;border-radius:18px}.app-icon-wrap{width:72px;height:72px;border-radius:20px}.app-icon{width:58px;height:58px}.status{font-size:8px;padding:6px 7px}.app-title{font-size:15px;padding-top:20px}.app-url{font-size:9px}.app-actions{opacity:1;gap:5px;flex-wrap:wrap}.mini-btn{font-size:9px;padding:7px 8px}.form-grid{grid-template-columns:1fr}footer{font-size:8px}.clock-card{display:none}}
+
+
+/* v4: larger typography, controls and application identity */
+.shell{max-width:1680px;padding-left:58px;padding-right:58px}
+.topbar{height:116px}
+.brand{gap:20px}
+.brand-mark{width:70px;height:70px;border-radius:21px;font-size:25px;letter-spacing:-2px}
+.brand strong{font-size:29px;letter-spacing:-.6px;font-weight:800}
+.brand span{font-size:12px;letter-spacing:3px;margin-top:7px}
+.top-actions{gap:14px}
+.icon-btn{width:62px;height:62px;min-width:62px;border-radius:18px;font-size:29px;display:grid;place-items:center}
+.section-head{margin-top:38px;margin-bottom:30px;align-items:center}
+.section-head h2{font-size:36px;letter-spacing:-1px;margin-bottom:9px}
+.section-head .eyebrow{font-size:13px;letter-spacing:3px}
+.section-head p:not(.eyebrow){font-size:16px;line-height:1.55}
+.add-btn{font-size:16px;padding:18px 25px;border-radius:15px}
+.apps-grid{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px}
+.app-card{min-height:365px;padding:34px 34px 29px;border-radius:29px}
+.app-icon-wrap{width:142px;height:142px;border-radius:35px}
+.app-icon{width:112px;height:112px;border-radius:27px}
+.status{font-size:13px;gap:9px;padding:10px 14px}
+.dot{width:9px;height:9px}
+.app-title{font-size:25px;letter-spacing:-.5px;padding-top:30px}
+.app-url{font-size:14px;margin-top:10px}
+.app-actions{gap:11px;margin-top:24px}
+.mini-btn{font-size:14px;padding:11px 16px;border-radius:11px}
+.hidden-section{margin-top:70px}
+.subtle-btn{font-size:14px;padding:13px 17px}
+footer{font-size:12px;letter-spacing:2px;padding-top:75px}
+/* Settings, About and all modal content */
+.modal{width:min(900px,96vw);max-height:92vh;padding:38px;border-radius:26px}
+.modal-head{margin-bottom:30px}
+.modal-head h2{font-size:30px;letter-spacing:-.5px}
+.modal .icon-btn{width:52px;height:52px;min-width:52px;font-size:25px}
+.field{gap:11px;margin:20px 0}
+.field label{font-size:16px;font-weight:650;color:#c5d1e4}
+.field input,.field select{font-size:17px;padding:16px 18px;border-radius:13px;min-height:56px}
+.checkline{font-size:16px;gap:13px;margin:22px 0}
+.checkline input{width:19px;height:19px}
+.modal-actions{gap:13px;margin-top:30px}
+.primary-btn,.danger-btn,.secondary-btn{font-size:16px;padding:15px 22px;border-radius:12px}
+.app-row{gap:18px;padding:18px 0}
+.app-row img{width:62px;height:62px}
+.app-row strong{font-size:17px}
+.app-row small{font-size:13px;margin-top:6px}
+.app-row .mini-btn{font-size:14px}
+#modalBody p{font-size:16px!important;line-height:1.7}
+#modalBody h3{font-size:20px!important}
+.toast{font-size:15px;padding:15px 22px;border-radius:14px}
+.empty{font-size:17px;padding:65px}
+@media(max-width:800px){
+ .shell{padding-left:28px;padding-right:28px}
+ .brand strong{font-size:23px}
+ .brand-mark{width:60px;height:60px}
+ .topbar{height:100px}
+ .icon-btn{width:54px;height:54px;min-width:54px;font-size:25px}
+ .apps-grid{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+ .app-card{min-height:330px}
+}
+@media(max-width:560px){
+ .shell{padding-left:16px;padding-right:16px}
+ .topbar{height:82px}
+ .brand{gap:10px}
+ .brand-mark{width:44px;height:44px;border-radius:13px;font-size:17px}
+ .brand strong{font-size:17px;letter-spacing:-.2px}
+ .brand span{font-size:8px;letter-spacing:1.6px}
+ .top-actions{gap:5px}
+ .icon-btn{width:39px;height:39px;min-width:39px;border-radius:11px;font-size:19px}
+ .section-head{margin-top:28px;gap:10px}
+ .section-head h2{font-size:27px}
+ .section-head p:not(.eyebrow){font-size:13px}
+ .section-head .eyebrow{font-size:10px}
+ .add-btn{font-size:13px;padding:13px 14px}
+ .apps-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+ .app-card{padding:16px;min-height:270px;border-radius:18px}
+ .app-icon-wrap{width:78px;height:78px;border-radius:20px}
+ .app-icon{width:62px;height:62px}
+ .status{font-size:9px;padding:6px 8px}
+ .app-title{font-size:16px;padding-top:20px}
+ .app-url{font-size:10px}
+ .mini-btn{font-size:10px;padding:8px 9px}
+ .modal{padding:22px;width:96vw}
+ .modal-head h2{font-size:23px}
+ .field label{font-size:14px}
+ .field input,.field select{font-size:15px;min-height:49px;padding:13px}
+ .primary-btn,.danger-btn,.secondary-btn{font-size:14px;padding:12px 15px}
+ .app-row img{width:46px;height:46px}
+ .app-row strong{font-size:14px}
+ .app-row small{font-size:11px}
+ footer{font-size:8px;letter-spacing:1px;padding-top:45px}
+}
+
+/* v11: keep every card control inside its border and enlarge header controls */
+.top-actions{gap:14px;flex:0 0 auto;align-items:center}
+.top-actions .icon-btn{width:66px;height:66px;min-width:66px;font-size:31px;border-radius:19px;flex:0 0 66px}
+.modal-head .icon-btn{width:58px;height:58px;min-width:58px;font-size:27px}
+.apps-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));align-items:stretch;gap:26px}
+.app-card{min-height:0;height:100%;padding:30px;overflow:hidden;cursor:grab}
+.app-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:22px;width:100%;opacity:1}
+.app-actions .mini-btn{display:flex;align-items:center;justify-content:center;width:100%;min-width:0;min-height:44px;padding:9px 8px;font-size:13px;line-height:1.15;white-space:nowrap}
+.app-actions .mini-btn:first-child{font-weight:800}
+.app-add-card{min-height:330px;width:100%;border:2px dashed #8eafff55;border-radius:29px;background:linear-gradient(145deg,#18243a88,#111a2b88);color:#c8d8f4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:13px;cursor:pointer;transition:.2s}
+.app-add-card:hover{border-color:#a9c9ff;transform:translateY(-5px);background:#1b2b46aa;box-shadow:0 20px 45px #0003}
+.add-circle{width:76px;height:76px;border-radius:24px;display:grid;place-items:center;background:linear-gradient(135deg,#a9c9ff,#8f9dff);color:#111a2c;font-size:48px;font-weight:400;line-height:1;box-shadow:0 10px 30px #799bff35}
+.app-add-card strong{font-size:21px}.app-add-card small{font-size:13px;color:#8798b5}
+.private-tag{display:inline-block;vertical-align:middle;margin-left:8px;padding:4px 7px;border-radius:6px;background:#7866c833;color:#c5baff;font-size:9px;letter-spacing:1px;font-weight:800}
+@media(max-width:800px){
+ .topbar{height:104px;gap:16px}.top-actions{gap:8px}.top-actions .icon-btn{width:54px;height:54px;min-width:54px;flex-basis:54px;font-size:25px}
+ .apps-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:18px}
+ .app-card{padding:24px;min-height:0}.app-add-card{min-height:300px}
+}
+@media(max-width:560px){
+ .topbar{height:82px;gap:8px}.brand{min-width:0;gap:8px}.brand-mark{width:42px;height:42px;flex:0 0 42px;font-size:16px}.brand strong{font-size:12.5px;white-space:nowrap}.brand span{display:none}
+ .top-actions{gap:5px}.top-actions .icon-btn{width:42px;height:42px;min-width:42px;flex-basis:42px;border-radius:12px;font-size:21px}
+ .modal-head .icon-btn{width:46px;height:46px;min-width:46px;font-size:22px}
+ .apps-grid{grid-template-columns:minmax(0,1fr);gap:14px}.app-card{padding:21px;min-height:0;border-radius:20px}.app-icon-wrap{width:90px;height:90px}.app-icon{width:70px;height:70px}.status{font-size:10px;padding:7px 9px}.app-title{font-size:20px;padding-top:20px}.app-url{font-size:12px}.app-actions{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.app-actions .mini-btn{min-height:42px;font-size:12px;padding:8px 6px}.app-add-card{min-height:220px;border-radius:20px}.add-circle{width:62px;height:62px;font-size:40px}.app-add-card strong{font-size:18px}
+}
+
+
+/* v14: lifecycle action messages must be comfortably readable */
+.toast{
+  z-index:100;
+  width:max-content;
+  min-width:min(320px,calc(100vw - 32px));
+  max-width:min(760px,calc(100vw - 32px));
+  padding:19px 26px;
+  border-radius:16px;
+  font-size:clamp(17px,1.45vw,20px);
+  font-weight:650;
+  line-height:1.5;
+  text-align:center;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  box-shadow:0 16px 48px #0008;
+}
+@media(max-width:560px){.toast{min-width:0;width:calc(100vw - 28px);max-width:calc(100vw - 28px);padding:16px 19px;font-size:17px;bottom:16px}}
