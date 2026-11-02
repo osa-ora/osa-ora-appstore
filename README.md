@@ -1,6 +1,9 @@
 # Osa Ora App Store
 
-A polished, local-first browser launchpad for your local applications.
+A polished, browser launchpad for your local applications.
+
+<img width="1335" height="847" alt="Screenshot 2026-11-02 at 10 27 35 PM" src="https://github.com/user-attachments/assets/654bdcc1-3153-4c92-94d8-dde741f1e6b0" />
+
 
 ## Included applications
 
