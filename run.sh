@@ -23,7 +23,7 @@ case "$ACTION" in
     "$VENV/bin/python" -m pip install --quiet --upgrade pip
     "$VENV/bin/python" -m pip install --quiet -r requirements.txt
     mkdir -p "$LOG_DIR"
-    nohup "$VENV/bin/uvicorn" app.main:app --host 127.0.0.1 --port "$PORT" >"$LOG_DIR/launcher.log" 2>&1 &
+    nohup "$VENV/bin/python" -m uvicorn app.main:app --host 127.0.0.1 --port "$PORT" >"$LOG_DIR/launcher.log" 2>&1 &
     echo $! > "$PID_FILE"
     READY=0
     for _ in {1..40}; do
