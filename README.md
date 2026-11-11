@@ -7,12 +7,13 @@ A polished, browser launchpad for your local applications.
 
 ## Included applications
 
-The launcher is preconfigured with four entries:
+The launcher is preconfigured with these entries:
 
 - My Private Space
 - IPTV
 - Demo Management
 - Book Ads Animator
+- Agent Prototyping
 
 Their starter folders and URLs are examples. Update each application's folder path, URL, and lifecycle commands from **Settings** to match your machine. Until the configured folder exists, its status is shown as **Unavailable**.
 
