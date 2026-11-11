@@ -2,7 +2,7 @@
 
 A polished, browser launchpad for your local applications.
 
-<img width="1335" height="847" alt="Screenshot 2026-11-02 at 10 27 35 PM" src="https://github.com/user-attachments/assets/654bdcc1-3153-4c92-94d8-dde741f1e6b0" />
+<img width="1287" height="870" alt="Screenshot 2026-11-11 at 11 22 40 AM" src="https://github.com/user-attachments/assets/e758f038-2076-434e-9981-e1ef6abd3cb7" />
 
 
 ## Included applications
